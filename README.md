@@ -3,7 +3,7 @@
 </div>
 
 <h4 align="center">
-  Web App: <a href="#" target="_blank">Omnisdo</a>
+  Web App: <a href="https://omnisdo.vercel.app/" target="_blank">Omnisdo</a>
 </h4>
 
 <div align="center">

@@ -1,0 +1,21 @@
+.container {
+  color: var(--neutral-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.4rem 0;
+  border-top: 1px solid var(--neutral-500);
+  gap: 1.6rem;
+  border-radius: 8px;
+}
+
+.clipboardDocumentCheckIcon {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.container p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

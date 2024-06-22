@@ -1,6 +1,6 @@
-import { ClipboardDocumentCheckIcon } from "@heroicons/react/24/outline";
+import { ClipboardDocumentCheckIcon } from '@heroicons/react/24/outline';
 
-import styles from "./Empty.module.css";
+import styles from './Empty.module.css';
 
 export function Empty() {
   return (

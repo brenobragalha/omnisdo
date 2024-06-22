@@ -1,8 +1,8 @@
-import { ITask } from "../../App";
+import { ITask } from '../../App';
 
-import { CheckIcon, TrashIcon } from "@heroicons/react/24/outline";
+import { CheckIcon, TrashIcon } from '@heroicons/react/24/outline';
 
-import styles from "./Item.module.css";
+import styles from './Item.module.css';
 
 interface Props {
   data: ITask;
@@ -20,11 +20,11 @@ export function Item({ data, removeTask, toggleTaskStatus }: Props) {
   }
 
   const checkboxCheckedClassName = data.isChecked
-    ? styles["checkbox-checked"]
-    : styles["checkbox-unchecked"];
+    ? styles['checkbox-checked']
+    : styles['checkbox-unchecked'];
   const paragraphCheckedClassName = data.isChecked
-    ? styles["paragraph-checked"]
-    : "";
+    ? styles['paragraph-checked']
+    : '';
 
   return (
     <div className={styles.container}>

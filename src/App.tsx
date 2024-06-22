@@ -1,15 +1,15 @@
-import { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import { PlusCircleIcon } from "@heroicons/react/24/outline";
+import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import { PlusCircleIcon } from '@heroicons/react/24/outline';
 
-import { Header } from "./components/Header";
-import { Input } from "./components/Input";
-import { Button } from "./components/Button";
-import { ListHeader } from "./components/List/Header";
-import { Item } from "./components/List/Item";
-import { Empty } from "./components/List/Empty";
+import { Header } from './components/Header';
+import { Input } from './components/Input';
+import { Button } from './components/Button';
+import { ListHeader } from './components/List/Header';
+import { Item } from './components/List/Item';
+import { Empty } from './components/List/Empty';
 
-import styles from "./App.module.css";
+import styles from './App.module.css';
 
 export interface ITask {
   id: string;
@@ -19,7 +19,7 @@ export interface ITask {
 
 export function App() {
   const [tasks, setTasks] = useState<ITask[]>([]);
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState('');
 
   const isNewInputEmpty = inputValue.length === 0;
 
@@ -49,13 +49,13 @@ export function App() {
     };
 
     setTasks((state) => [...state, newTask]);
-    setInputValue("");
+    setInputValue('');
   }
 
   function handleRemoveTask(id: string) {
     const filteredTasks = tasks.filter((task) => task.id !== id);
 
-    if (!confirm("Are you sure you want to delete this task?")) {
+    if (!confirm('Are you sure you want to delete this task?')) {
       return;
     }
 

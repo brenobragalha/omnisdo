@@ -1,23 +1,23 @@
 .container {
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
 }
 
 aside {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
 }
 
 aside p {
-  font-weight: bold;
-  color: var(--emerald-600);
+    font-weight: bold;
+    color: var(--emerald-600);
 }
 
 aside span {
-  color: var(--neutral-50);
-  background-color: var(--neutral-800);
-  padding: 0.4rem 0.8rem;
-  border-radius: 8px;
+    color: var(--neutral-50);
+    background-color: var(--neutral-800);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
 }

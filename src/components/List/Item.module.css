@@ -1,97 +1,97 @@
 .container {
-  background-color: var(--neutral-800);
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.6rem;
-  border: 1px solid var(--neutral-500);
-  border-radius: 8px;
+    background-color: var(--neutral-800);
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem;
+    border: 1px solid var(--neutral-500);
+    border-radius: 8px;
 }
 
 .container label {
-  display: flex;
-  flex: 1;
-  gap: 0.8rem;
+    display: flex;
+    flex: 1;
+    gap: 0.8rem;
 }
 
 .checkBoxInput {
-  display: none;
+    display: none;
 }
 
 .checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 100%;
-  transition: 0.1s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    transition: 0.1s all;
 }
 
 .checkbox:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .checkbox-unchecked {
-  border: 2px solid var(--emerald-600);
+    border: 2px solid var(--emerald-600);
 }
 
 .checkbox-unchecked:hover {
-  border: 2px solid var(--emerald-500);
+    border: 2px solid var(--emerald-500);
 }
 
 .checkbox-checked {
-  border: 2px solid var(--emerald-600);
-  background-color: var(--emerald-600);
+    border: 2px solid var(--emerald-600);
+    background-color: var(--emerald-600);
 }
 
 .checkbox-checked:hover {
-  border: 2px solid var(--emerald-500);
-  background-color: var(--emerald-500);
+    border: 2px solid var(--emerald-500);
+    background-color: var(--emerald-500);
 }
 
 .checkIcon {
-  color: var(--neutral-50);
-  width: 1.6rem;
-  height: 1.6rem;
+    color: var(--neutral-50);
+    width: 1.6rem;
+    height: 1.6rem;
 }
 
 .paragraph {
-  font-size: 1.4rem;
-  transition: 0.1s all;
+    font-size: 1.4rem;
+    transition: 0.1s all;
 
-  user-select: none;
+    user-select: none;
 
-  word-break: break-word;
-  overflow-wrap: break-word;
-  overflow: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
 }
 
 .paragraph-checked {
-  color: var(--neutral-500);
-  text-decoration: line-through;
+    color: var(--neutral-500);
+    text-decoration: line-through;
 }
 
 .container button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--neutral-500);
-  background-color: transparent;
-  border: none;
-  border-radius: 4px;
-  transition: 0.1s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-500);
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    transition: 0.1s all;
 
-  align-self: flex-start;
+    align-self: flex-start;
 }
 
 .container button:hover {
-  color: var(--rose-500);
-  cursor: pointer;
+    color: var(--rose-500);
+    cursor: pointer;
 }
 
 .trashIcon {
-  width: 2.4rem;
-  height: 2.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
 }

@@ -33,4 +33,5 @@
 
 ## Warning
 
-This is only the frontend of the application. Upon page reload, tasks will be lost as they are not persisted in a database. Additionally, authentication and login functionalities have not yet been implemented.
+This is only the frontend of the application. Upon page reload, tasks will be lost as they are not persisted in a
+database. Additionally, authentication and login functionalities have not yet been implemented.

@@ -1,35 +1,35 @@
 .wrapper {
-  max-width: 76.8rem;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0.8rem 0.8rem;
+    max-width: 76.8rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0.8rem 0.8rem;
 }
 
 .taskInfoContainer {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
 }
 
 .taskInfoContainer input,
 .taskInfoContainer button {
-  transform: translateY(-50%);
-  margin-bottom: 3.2rem;
+    transform: translateY(-50%);
+    margin-bottom: 3.2rem;
 }
 
 .plusCircleIcon {
-  width: 2.4rem;
-  height: 2.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 
 .tasksList {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 }
 
 .tasksList__items {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
 }
